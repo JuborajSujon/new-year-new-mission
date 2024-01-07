@@ -22,6 +22,8 @@ body {
 }
 
 /* General CSS End*/
+
+/* Reuseable CSS Start*/
 .full-container {
   max-width: 1600px;
   margin: 0 auto;
@@ -56,14 +58,15 @@ body {
   font-size: 48px;
   font-weight: 700;
 }
-.heading-quaternary-1 {
+.heading-quaternary-2 {
   color: var(--color-secondary);
   font-size: 48px;
   font-weight: 900;
   text-transform: capitalize;
 }
 
-.heading-quinary {
+.heading-quinary-1 {
+  color: var(--color-white);
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 600;
@@ -71,20 +74,25 @@ body {
   text-transform: capitalize;
 }
 
-.paragraph-primary {
+.heading-quinary-2 {
+  color: var(--color-white);
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: capitalize;
 }
-.paragraph-secondary {
+
+.paragraph-primary {
   color: var(--color-primary);
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
-.paragraph-tertiary {
-  color: rgba(255, 255, 255, 0.8);
+.paragraph-secondary {
+  color: rgba(7, 2, 17, 0.6);
   font-family: "Inter", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 32px;
 }
 
 .btn-primary {
@@ -100,8 +108,93 @@ body {
   border-radius: 8px;
 }
 
-/* Reuseable CSS Start*/
 /* Reuseable CSS End*/
 
 /* Banner Section Styles Start*/
+.banner-bg {
+  background-image: linear-gradient(
+      to bottom,
+      #070211 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url("./resources/Banner-Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  max-height: 80vh;
+  border-radius: 12px;
+}
+.banner-bg .banner-content {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner-content .heading-container {
+  width: 632px;
+}
 /* Banner Section Styles End*/
+
+/* Offer Section Styles Start */
+.offer {
+  margin: 120px 0;
+  text-align: center;
+}
+.offer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offer-content {
+  max-width: 800px;
+}
+.offer-content .offer-title {
+  margin-bottom: 40px;
+}
+.offer-content .offer-motive {
+  margin-bottom: 16px;
+}
+.offer-content .offer-category {
+  margin-bottom: 30px;
+}
+.offer-img img {
+  width: 100%;
+  object-fit: cover;
+}
+/* Offer Section Styles End */
+
+/* Call To Action Section Styles start */
+.call-to-action {
+  background-image: linear-gradient(
+      to right,
+      #070211 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url("./resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 80vh;
+  border-radius: 12px;
+  margin-bottom: 130px;
+}
+.call-to-action .call-to-action-container {
+  width: 100%;
+  height: 600px;
+  padding-left: 130px;
+  display: flex;
+  align-items: center;
+}
+.call-to-action .call-to-action-content {
+  width: 700px;
+}
+.call-to-action-content .cta-para {
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+/* Call To Action Section Styles end */
