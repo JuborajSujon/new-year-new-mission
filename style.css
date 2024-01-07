@@ -1,0 +1,107 @@
+/* CSS- Google Fonts Import - Merriweather and Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap");
+
+/* General CSS Start*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Merriweather", serif;
+}
+
+:root {
+  --color-primary: #ff0000;
+  --color-secondary: #070211;
+  --color-tertiary: rgba(7, 2, 17, 0.6);
+  --color-black: #000;
+  --color-white: #fff;
+}
+
+/* General CSS End*/
+.full-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.sub-container {
+  max-width: 82%;
+  margin: 0 auto;
+}
+.heading-primary {
+  color: var(--color-white);
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+.heading-secondary {
+  color: var(--color-primary);
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 120px;
+}
+.heading-tertiary {
+  color: var(--color-white);
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 87px;
+  letter-spacing: 7px;
+}
+.heading-quaternary-1 {
+  color: var(--color-secondary);
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.heading-quaternary-1 {
+  color: var(--color-secondary);
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.heading-quinary {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.paragraph-primary {
+}
+.paragraph-secondary {
+  color: var(--color-primary);
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.paragraph-tertiary {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 8px;
+}
+
+/* Reuseable CSS Start*/
+/* Reuseable CSS End*/
+
+/* Banner Section Styles Start*/
+/* Banner Section Styles End*/
