@@ -66,7 +66,7 @@ body {
 }
 
 .heading-quinary-1 {
-  color: var(--color-white);
+  color: var(--color-secondary);
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 600;
@@ -198,3 +198,24 @@ body {
   margin-bottom: 32px;
 }
 /* Call To Action Section Styles end */
+
+/* Events Section Styles Start */
+.events {
+  background-image: linear-gradient(to bottom, #fce1e1 0%, #fff 100%);
+  border-radius: 12px;
+}
+.events .events-container {
+  height: 430px;
+  text-align: center;
+}
+.events .events-container .events-content {
+  margin: 100px 370px;
+}
+.events-content .event-title {
+  color: var(--color-primary);
+}
+
+.events-content button {
+  margin-top: 48px;
+}
+/* Events Section Styles End */
