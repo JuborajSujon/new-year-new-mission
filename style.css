@@ -343,7 +343,7 @@ body {
   width: 680px;
   position: absolute;
   bottom: 0px;
-  left: 0;
+  left: 30px;
   z-index: 2;
 }
 .holiday-img .magic-box img {
@@ -402,3 +402,55 @@ body {
   transform: translateY(-10px);
 }
 /* Portfoloio Section Styles End */
+
+/* Subscribe Section Styles Start */
+.subscribe {
+  margin: 120px 0 240px;
+  text-align: center;
+}
+.subscribe .subscribe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe .subscribe-content {
+  max-width: 900px;
+  padding: 80px 30px;
+}
+.subscribe .subscribe-content .subscribe-content-img {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto 40px;
+}
+
+.subscribe .subscribe-content h3 {
+  margin-bottom: 22px;
+}
+.subscribe .subscribe-content p {
+  margin-bottom: 50px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-form #user-email {
+  width: 440px;
+  height: 72px;
+  padding: 25px 30px;
+  border-radius: 50px 0 0 50px;
+}
+.subscribe-form .subscribe-btn {
+  height: 72px;
+  width: 210px;
+  padding: 24px 56px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border-radius: 0 50px 50px 0;
+}
+/* Subscribe Section Styles End */
