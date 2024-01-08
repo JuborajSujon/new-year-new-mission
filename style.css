@@ -366,9 +366,7 @@ body {
 /* Holiday Section Styles End */
 
 /* Portfoloio Section Styles Start */
-.portfolio {
-  margin: 120px 0;
-}
+
 .portfolio .portfolio-content {
   max-width: 900px;
 }
@@ -406,7 +404,7 @@ body {
 
 /* Subscribe Section Styles Start */
 .subscribe {
-  margin: 120px 0 240px;
+  margin: 120px 0 120px;
   text-align: center;
 }
 .subscribe .subscribe-container {
