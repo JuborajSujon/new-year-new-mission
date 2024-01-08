@@ -437,8 +437,9 @@ body {
 .subscribe-form #user-email {
   width: 440px;
   height: 72px;
-  padding: 25px 30px;
+  padding: 18px 30px;
   border-radius: 50px 0 0 50px;
+  font-size: 18px;
 }
 .subscribe-form .subscribe-btn {
   height: 72px;
