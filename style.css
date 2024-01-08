@@ -441,6 +441,7 @@ body {
   padding: 18px 30px;
   border-radius: 50px 0 0 50px;
   font-size: 18px;
+  border: none;
 }
 .subscribe-form .subscribe-btn {
   height: 72px;
@@ -454,6 +455,7 @@ body {
   background-color: var(--color-primary);
   border-radius: 0 50px 50px 0;
   cursor: pointer;
+  border: none;
 }
 /* Subscribe Section Styles End */
 
