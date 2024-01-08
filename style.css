@@ -107,6 +107,7 @@ body {
   padding: 16px 32px;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
 }
 
 /* Reuseable CSS End*/
@@ -452,6 +453,7 @@ body {
   color: var(--color-white);
   background-color: var(--color-primary);
   border-radius: 0 50px 50px 0;
+  cursor: pointer;
 }
 /* Subscribe Section Styles End */
 
