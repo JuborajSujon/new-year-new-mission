@@ -159,6 +159,7 @@ body {
 }
 .offer-content .offer-motive {
   margin-bottom: 16px;
+  text-transform: uppercase;
 }
 .offer-content .offer-category {
   margin-bottom: 30px;
