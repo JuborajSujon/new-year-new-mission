@@ -407,6 +407,8 @@ body {
 .subscribe {
   margin: 120px 0 120px;
   text-align: center;
+  background-image: linear-gradient(to bottom, #fce1e1 0%, #fff 100%);
+  border-radius: 12px;
 }
 .subscribe .subscribe-container {
   display: flex;
